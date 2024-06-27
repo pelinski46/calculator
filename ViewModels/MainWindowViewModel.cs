@@ -49,7 +49,7 @@ public class MainWindowViewModel : ViewModelBase
 
     public void RemoveLastNumber()
     {
-        shownValue = (int)shownValue / 10;
+        shownValue = (long)shownValue / 10;
     }
 
     private void ExecuteOperation(Operation operation)
